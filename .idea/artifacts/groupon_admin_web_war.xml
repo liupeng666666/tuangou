@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="groupon-admin-web:war">
+    <output-path>$PROJECT_DIR$/Admin/Web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>groupon-admin-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="groupon-admin-web-1.0.war">
+      <element id="artifact" artifact-name="groupon-admin-web:war exploded" />
+    </root>
+  </artifact>
+</component>
